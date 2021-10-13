@@ -8,8 +8,28 @@
       content="Used as a boilerplate for tasks in the 'HTML, CSS and SASS' course in boom.dev"
     />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+       .discounts {
+      display: block;
+      visibility: visible;
+    }
+
+    @media screen and (min-width: 601px) {
+      .discounts{
+        display: none;
+        visibility: hidden;
+      }
+      
+    }
+    </style>
   </head>
   <body>
+
+    <div class="discounts">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Ea architecto velit eveniet odit rem blanditiis nihil adipisci corporis error quaerat!
+      Eum reprehenderit quisquam odit ipsum voluptatum praesentium minus est accusamus.
+    </div>
     <div class="main">
       <div class="emoji mb-6">💣🤯💥</div>
       <button class="button">Boom?</button>
